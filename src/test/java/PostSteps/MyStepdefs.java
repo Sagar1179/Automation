@@ -5,10 +5,12 @@ public class MyStepdefs {
 
     @io.cucumber.java.en.When("I type the message in the box")
     public void iTypeTheMessageInTheBox() {
+        System.out.println("I type the message in the box");
     }
 
     @io.cucumber.java.en.And("Click on the post button")
     public void clickOnThePostButton() {
+        System.out.println("Click on the post button");
     }
 
     @io.cucumber.java.en.Then("the message should get posted")
